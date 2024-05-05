@@ -9,12 +9,12 @@ atributos_magia = int   (input("Magia: "))
 atributos_vel = int     (input("Velocidade: "))
 
 
-Bronze = int (100) 
-Prata = int (250)
-Ouro = int (500)
-Platina = int (1000)
-Diamante = int (5000)
-Ruby = int (10000)
+#Bronze = int (100) 
+#Prata = int (250)
+#Ouro = int (500)
+#Platina = int (1000)
+#Diamante = int (5000)
+#Ruby = int (10000)
  
 total = atributos_forca + atributos_vida + atributos_magia + atributos_vel
 print("O seu OVER foi:",total)
@@ -59,7 +59,7 @@ def criar_monstro():
             "Level": level 
         }
 
-
+#TERMINAR...
     lista_monstro.append(novo_monstro)
 
 criar_monstro()
